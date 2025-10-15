@@ -17,9 +17,13 @@
   "linter": {
     "enabled": true,
     "rules": {
+      "style": {
+        "useImportType":"off"
+      },
       "recommended": true,
       "suspicious": {
-        "noUnknownAtRules": "off"
+        "noUnknownAtRules": "off",
+        "noArrayIndexKey":"warn"
       }
     },
     "domains": {
@@ -30,7 +34,7 @@
   "assist": {
     "actions": {
       "source": {
-        "organizeImports": "on"
+        "organizeImports": "off"
       }
     }
   }
