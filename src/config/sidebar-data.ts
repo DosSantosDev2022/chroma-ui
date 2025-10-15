@@ -50,23 +50,28 @@ export const data = {
       items: [
         {
           title: "Input",
-          url: "#",
+          slug: "input",
+          url: "/components/input",
         },
         {
           title: "TextArea",
-          url: "#",
+          slug: "textarea",
+          url: "/components/textarea",
         },
         {
           title: "Form",
-          url: "#",
+           slug: "form",
+          url: "/components/form",
         },
         {
           title: "Checkbox",
-          url: "#",
+          slug: "checkbox",
+          url: "/components/checkbox",
         },
         {
           title: "Select",
-          url: "#",
+          slug: "select",
+          url: "/components/select",
         },
       ],
     },
