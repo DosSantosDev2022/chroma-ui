@@ -154,8 +154,8 @@ export const data = {
         icon: AppWindow,
         items: [
             {
-                title: "Modal",
-                url: "#",
+                title: "Dialog",
+                url: "/components/dialog",
             },
             {
                 title: "Tooltip",
