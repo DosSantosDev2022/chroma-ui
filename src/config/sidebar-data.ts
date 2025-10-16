@@ -145,6 +145,11 @@ export const data = {
                 title: "Table",
                 url: "#",
             },
+            {
+                title: "Accordion",
+                slug: "accordion",
+                url: "/components/accordion",
+            },
         ]
     },
     // Seção de Sobreposições (NOVO)
