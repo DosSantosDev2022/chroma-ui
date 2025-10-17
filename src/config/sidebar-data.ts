@@ -59,6 +59,11 @@ export const data = {
           url: "/components/textarea",
         },
         {
+          title: "Label",
+          slug: "label",
+          url: "/components/label",
+        },
+        {
           title: "Form",
            slug: "form",
           url: "/components/form",
