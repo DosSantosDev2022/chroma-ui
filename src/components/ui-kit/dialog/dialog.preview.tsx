@@ -1,6 +1,6 @@
 'use client'
-import { Button } from "@/components/ui/button";
-import { Dialog, DialogClose, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogOverlay, DialogPortal, DialogTitle, DialogTrigger } from "./index"; // Importa o componente REAL
+import { Button } from "../button";
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogOverlay, DialogPortal, DialogTitle, DialogTrigger } from "./index"; // Importa o componente REAL
 
 export default function InputPreview() {
   return (

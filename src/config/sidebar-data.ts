@@ -156,7 +156,6 @@ export const data = {
             },
         ]
     },
-    // Seção de Sobreposições (NOVO)
     {
         title: "Sobreposições",
         url: "#",
@@ -173,6 +172,17 @@ export const data = {
             {
                 title: "Popover",
                 url: "/components/popover",
+            }
+        ]
+    },
+    {
+        title: "Ações",
+        url: "#",
+        icon: AppWindow,
+        items: [
+            {
+                title: "Button",
+                url: "/components/button",
             }
         ]
     }

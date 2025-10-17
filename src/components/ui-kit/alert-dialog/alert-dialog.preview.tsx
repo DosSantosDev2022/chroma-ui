@@ -10,7 +10,7 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "./index"
-import { Button } from "@/components/ui/button"
+import { Button } from "../button"
 
 export default function AlertDialogPreview() {
   return (
