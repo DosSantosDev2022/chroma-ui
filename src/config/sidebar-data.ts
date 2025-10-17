@@ -83,19 +83,19 @@ export const data = {
       items: [
         {
           title: "Header",
-          url: "#",
+          url: "/components/header",
         },
         {
           title: "Footer",
-          url: "#",
+          url: "/components/footer",
         },
         {
           title: "Container",
-          url: "#",
+          url: "/components/container",
         },
         {
           title: "Grid",
-          url: "#",
+          url: "/components/grid",
         },
       ],
     },
@@ -107,19 +107,19 @@ export const data = {
         items: [
             {
                 title: "Alert",
-                url: "#",
+                url: "/components/alert",
             },
             {
                 title: "Toast",
-                url: "#",
+                url: "/components/toast",
             },
             {
                 title: "Spinner",
-                url: "#",
+                url: "/components/spinner",
             },
             {
                 title: "Skeleton",
-                url: "#"
+                url: "/components/skeleton"
             }
         ]
     },
@@ -131,19 +131,19 @@ export const data = {
         items: [
             {
                 title: "Avatar",
-                url: "#",
+                url: "/components/avatar",
             },
             {
                 title: "Badge",
-                url: "#",
+                url: "/components/badge",
             },
             {
                 title: "Card",
-                url: "#",
+                url: "/components/card",
             },
             {
                 title: "Table",
-                url: "#",
+                url: "/components/table",
             },
             {
                 title: "Accordion",
@@ -164,11 +164,11 @@ export const data = {
             },
             {
                 title: "Tooltip",
-                url: "#",
+                url: "/components/tooltip",
             },
             {
                 title: "Popover",
-                url: "#",
+                url: "/components/popover",
             }
         ]
     }
