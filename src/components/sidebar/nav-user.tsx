@@ -28,6 +28,7 @@ import {
   SidebarMenuItem,
   useSidebar,
 } from "@/components/ui/sidebar"
+import Link from "next/link"
 
 export function NavUser({
   user,
@@ -82,22 +83,18 @@ export function NavUser({
             <DropdownMenuGroup>
               <DropdownMenuItem>
                 <Sparkles />
-                Meu portifólio
+                <Link target="_blank" href={'https://dossantosdev.com.br/'} >Meu portifólio</Link>
               </DropdownMenuItem>
             </DropdownMenuGroup>
             <DropdownMenuSeparator />
             <DropdownMenuGroup>
               <DropdownMenuItem>
                 <BadgeCheck />
-                Meu GitHub
+                <Link target="_blank" href={'https://github.com/DosSantosDev2022'} >Meu GitHub</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
                 <CreditCard />
-                Meu linkedin
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Bell />
-                Notifications
+                <Link target="_blank" href={'https://www.linkedin.com/in/dossantosdev/'} >Meu linkedin</Link>
               </DropdownMenuItem>
             </DropdownMenuGroup>
           </DropdownMenuContent>
