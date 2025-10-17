@@ -110,6 +110,10 @@ export const data = {
                 url: "/components/alert",
             },
             {
+                title: "Alert Dialog",
+                url: "/components/alert-dialog",
+            },
+            {
                 title: "Toast",
                 url: "/components/toast",
             },
